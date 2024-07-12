@@ -1,6 +1,6 @@
-import { defineConfig } from 'tsup'
+import { defineConfig } from 'tsup';
 
-export default defineConfig((options) => ({
+export default defineConfig(options => ({
   target: 'esnext',
   format: ['cjs', 'esm'],
   splitting: false,
@@ -9,4 +9,4 @@ export default defineConfig((options) => ({
   dts: true,
   entry: ['./src/index.ts'],
   minify: !options.watch,
-}))
+}));
