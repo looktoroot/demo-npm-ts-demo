@@ -1,2 +1,2 @@
 export { sum } from './sum';
-export { minus } from './minus'
+export { minus } from './minus';

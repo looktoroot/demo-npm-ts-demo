@@ -1,1 +1,1 @@
-export { minus } from './minus'
+export { minus } from './minus';
